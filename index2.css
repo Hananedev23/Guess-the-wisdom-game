@@ -1,0 +1,99 @@
+
+  
+  .container{
+      border: 2px solid black;
+       width: 50%;
+      height: 400px;
+      text-align: center;
+      margin-left: 330px;
+      margin-top: 100px;
+      box-shadow: 2px 2px 10px black;
+  
+  }
+  #name{
+    font-family: "Montagu Slab", serif;
+    font-size: 45px;
+    font-weight: bolder;
+    color:rgb(255, 255, 255); 
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+  
+  }
+  #game{
+    font-family: "Monofett", monospace;
+    font-size: 80px;
+ 
+  }
+  .container input{
+
+    margin-top: 26px;
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: #ff65ff;
+    
+    width: 110px;
+    font-family: "Montagu Slab", serif;
+    cursor: pointer;
+  
+  }
+  .container input:hover{
+    transform: scale(1);
+    border: 2px solid rgb(0, 0, 0);
+
+  }
+ 
+   .sign  h1{
+     font-family: "Orelega One", serif;
+   
+   }
+   
+   .sign input{
+    
+     margin-top: 22px;
+     padding: 10px;
+     border: 1px solid black;
+     color: white;
+     background-color: #970581;
+    
+     width: 180px;
+     cursor: default;
+     box-shadow: 0px 2px 6px black;
+   
+   }
+   .sign input::placeholder{
+     color: white;
+   }
+   .sign input:hover{
+    transform: none;
+   }
+  
+   .sign   p {
+
+     margin-top: 20px;
+     
+   }
+   .sign   p span{
+     color: rgb(0, 122, 0);
+     font-weight: bold;
+     text-decoration: underline;
+     cursor: pointer;
+   }
+   
+   h1{
+    animation-name: backInDown;
+    animation-duration: 0.5s; 
+    animation-timing-function: linear;
+  }
+@keyframes backInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+ 
+  
