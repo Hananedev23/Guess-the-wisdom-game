@@ -9,7 +9,7 @@ Guess the Wisdom is a fun and challenging game where players decode famous prove
 - Challenge yourself to reach the highest score
 
 ## Getting Started
-1. Clone the repository: `git clone <[repository-url](https://github.com/Hananedev23/Guess-the-wisdom-game.git)>`
+1. Clone the repository: git clone [repository-url](https://github.com/Hananedev23/Guess-the-wisdom-game.git)
 2. Open `home.html` in your preferred web browser.
 3. Start playing and enjoy decoding wisdom with emojis!
 
